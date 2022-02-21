@@ -44,7 +44,6 @@ def main():
                 st.write("Calificación Inicial")
                 cal = st.selectbox("Calificación", options=calificaciones)
 
-                # Every form must have a submit button.
                 submitted = st.form_submit_button("Ejecutar simulación")
             if submitted:
                 random_num = np.random.uniform()
@@ -56,7 +55,6 @@ def main():
                 st.write("Calificación Inicial, selección automática")
                 cal2 = st.selectbox("Calificación", options=calificaciones)
 
-                # Every form must have a submit button.
                 submitted2 = st.form_submit_button("Ejecutar simulación")
             if submitted2:
                 random_cal = np.random.choice(calificaciones, 1, p=cals_dict[cal2])[0]
