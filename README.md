@@ -11,7 +11,7 @@ Tiene dos documentos principales:
 ## Guía para ejecutar local
 
 - Realizar fork al repositorio o descargar la carpeta para tenerla de forma local. 
-- Tener python e instalar los requerimientos necesarios. Utilizando pip sería:
+- Tener Python (versión 3.9 en adelante) e instalar los requerimientos necesarios. Utilizando pip sería:
   - pip install -r requirements.
 - Ejecutar el streamlit: streamlit run demo_simulaciones.py. Más información de [como ejecutar streamlit](https://docs.streamlit.io/knowledge-base/using-streamlit/how-do-i-run-my-streamlit-script).
 
