@@ -9,7 +9,10 @@ Tiene dos documentos principales:
   - **excel_simulaciones**: Documento de excel que replica el demo.
   - **requirements.txt**: Los requerimientos de las librerías de python necesarias para poder ejecutar el demo de forma local.
 
-## Guía para ejecutar archivo de python local
+## Streamlit en la nube:
+Puede acceder a la aplicación en la nube a través de: [Demo Trancisiones App](https://share.streamlit.io/sbrd-estudios-pub/demo_transition_simulation/main/demo_simulaciones.py)
+
+## Guía para ejecutar archivo de python local y realizar cambios
 
 - Realizar fork al repositorio o descargar la carpeta para tenerla de forma local. 
 - Tener Python (versión 3.9 en adelante) e instalar los requerimientos necesarios. Utilizando pip sería:
