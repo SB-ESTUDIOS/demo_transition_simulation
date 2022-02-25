@@ -71,7 +71,8 @@ def main():
             st.write(
                 "Se ejecuta la simulación por 12 meses para la cantidad de individuos seleccionada."
             )
-            ind_cant = st.number_input("Cantidad de Individuos", min_value=1, value=1)
+            ind_cant = st.number_input("Cantidad de Individuos", min_value=1, value=1, max_value=50000)
+            st.write("Por razones de rendimiento se limitó el número máximo a 50,000. Puede ajustarlo ejecutándolo de manera local.")
 
             # Every form must have a submit button.
             submitted2 = st.form_submit_button("Ejecutar simulación")
