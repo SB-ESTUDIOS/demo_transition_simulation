@@ -4,13 +4,14 @@
 En este repositorio se comparte el demo utilizado en la [presentación](https://www.youtube.com/watch?v=cSCZq9XgS_Y&t=1180s) realizada en el [Club de Gestión de Riesgos de la República Dominicana](https://gestionderiesgo.org/). El objetivo principal es mostrar de manera sencilla como se realizan las simulaciones de transición de calificación de riesgos en base a una matriz de probabilidad. 
 
 ## Organización del repositorio
-Tiene dos documentos principales:
+Tiene tres documentos principales:
   - **demo_simulaciones.py**: Documento de python que contiene el demo. Utiliza el framework [streamlit](https://streamlit.io/) para convertir un script de python en un web app.
   - **excel_simulaciones**: Documento de excel que replica el demo.
   - **requirements.txt**: Los requerimientos de las librerías de python necesarias para poder ejecutar el demo de forma local.
 
-## Streamlit en la nube:
-Puede acceder a la aplicación en la nube a través de: [Demo Trancisiones App](https://share.streamlit.io/sbrd-estudios-pub/demo_transition_simulation/main/demo_simulaciones.py)
+## Demo en la nube
+Puede acceder a la aplicación en la nube a través de: [App demo de transiciones](https://share.streamlit.io/sbrd-estudios-pub/demo_transition_simulation/main/demo_simulaciones.py).
+Nota: Está corriendo en la versión gratuita de la nube de streamlit y es posible que el rendimiento no sea el óptimo. Para mejor experiencia, correr local.
 
 ## Guía para ejecutar archivo de python local y realizar cambios
 
