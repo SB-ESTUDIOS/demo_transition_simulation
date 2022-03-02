@@ -17,12 +17,26 @@ calificaciones = ["A", "B", "C", "D1", "D2", "E"]
 ## Aquí se definen las probabilidades de transición para cada calificación.
 ## Pueden modificar esta para probar con diferentes escenarios.
 
-A = [0.5, 0.5, 0, 0, 0, 0]
-B = [0.2, 0.2, 0.6, 0, 0, 0]
-C = [0, 0.2, 0.2, 0.6, 0, 0]
-D1 = [0, 0, 0.2, 0.2, 0.6, 0]
-D2 = [0, 0, 0, 0.2, 0.2, 0.6]
-E = [0, 0, 0, 0, 0.1, 0.9]
+select_matriz = st.sidebar.selectbox('Seleccionar Matriz', [1, 2])
+
+if select_matriz == 1:
+
+    A = [0.5, 0.5, 0, 0, 0, 0]
+    B = [0.2, 0.2, 0.6, 0, 0, 0]
+    C = [0, 0.2, 0.2, 0.6, 0, 0]
+    D1 = [0, 0, 0.2, 0.2, 0.6, 0]
+    D2 = [0, 0, 0, 0.2, 0.2, 0.6]
+    E = [0, 0, 0, 0, 0.1, 0.9]
+
+else:
+    
+    A = [0.7, 0.3, 0, 0, 0, 0]
+    B = [0.25, 0.5, 0.25, 0, 0, 0]
+    C = [0, 0.25, 0.5, 0.25, 0, 0]
+    D1 = [0, 0, 0.25, 0.5, 0.25, 0]
+    D2 = [0, 0, 0, 0.25, 0.5, 0.25]
+    E = [0, 0, 0, 0, 0.1, 0.9]
+    
 
 cals_dict = dict({"A": A, "B": B, "C": C, "D1": D1, "D2": D2, "E": E})
 
